@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.omen.facpunto.login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="136dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/factuw" />
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textStyle="bold"
+        android:hint="Correo"/>
+    <requestFocus></requestFocus>
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text=""
+        android:hint="Contraseña"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/sesion"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_registar"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/registrarse"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.omen.facpunto.register"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_register">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/regisUsu"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Nombre"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <requestFocus></requestFocus>
+
+    <EditText
+        android:id="@+id/etApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Apellidos"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:id="@+id/etEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Nombre de la empresa"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Correo"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text=""
+        android:hint="Contraseña"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnRegistrarUsu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/regisUsu"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+</LinearLayout>
